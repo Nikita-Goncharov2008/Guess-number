@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+body,html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #6D82E3;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    margin: .3em;
+}
+
+button:hover {
+    background-color: #8BA4FF;
+}
+
+button:focus{
+    background-color: #8BA4FF;
+
+}
+
+
+
+.guess{
+    width: 400px;
+    border: 1px solid black;
+    border-radius:40px 0  ;
+    text-align: center;
+    background-color: #4B61C1;
+    color: white;
+    overflow: hidden;
+}
+
+.padBlock{
+    padding: 2em;
+
+}
+
+header{
+    padding: 0 0 2em 0  ;
+    border-bottom: 2px solid #97AFF5;
+    margin:0 0 2em 0 ;
+}
+
+h1{
+    font-weight: normal;
+}
+
+.buttonsBlock{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 5px;
+}
+
+.newGame{
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+}
+.newGame:hover {
+    background-color: #FF5433;
+}
+
+.newGame:focus{
+    background-color: #FF5433;
+
+}
+
+.tries{
+    background-color: #354AA3;
+    padding: 1em;
+}
+.coments{
+    background-color: #223585;
+    padding: 1em;
+}
+
+.number:disabled:hover{
+    background-color: #6D82E3;
+}
